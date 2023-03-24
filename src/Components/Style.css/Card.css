@@ -1,0 +1,47 @@
+.card  {
+    width: 15rem;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    top:20%;
+    position: relative;
+}
+
+section {
+    width: 80%;
+    display: grid;
+    margin-top: 5%;
+    margin: auto;
+    grid-template-columns: repeat(3,  1fr);
+    grid-template-rows: auto;
+    top:30%;
+}
+.card:hover {
+    box-shadow: 0.6rem 0.5rem 0.7rem rgb(0,0,0,0.1);
+    cursor: pointer;
+}
+.image-box img {
+    width: 7rem;
+    height: 7rem;
+}
+.details p:nth-child(1) {
+    font-weight: bold;
+}
+.details p:nth-child(2) {
+    color: orange;
+    font-size: 0.8rem;
+}
+.details p:nth-child(3) {
+    color: orange;
+    font-weight: bold;
+}
+
+.details button {
+    padding: 0.6rem 0.4rem;
+    border: none;
+    font-weight: bold;
+    background-color: orange;
+    outline: none;
+    font-family: cursive;
+    border-radius: 0.3rem ;
+}
